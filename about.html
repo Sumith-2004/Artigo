@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body Theme */
+        body {
+            background-color: #2c2c2c; 
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .nav-bar {
+            background-color: #1f1f1f; 
+            padding: 10px 20px;
+        }
+
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-bar a:hover {
+            background-color: #f04d22; 
+            color: #ffffff;
+            border-radius: 5px;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #d3d3d3; 
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 50px auto;
+        }
+
+        /* About Section */
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 50px; 
+        }
+
+        .about-section .text {
+            flex: 1; /* Text takes up the remaining space */
+        }
+
+        .about-section .my-pic {
+            flex: 0 0 auto; /* Prevents image from stretching */
+            max-width: 300px; /* Control the image width */
+            border-radius: 160px;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .contact p,
+        .contact ul {
+            font-size: 1.2rem;
+            color: #f7d2d2;
+        }
+
+        .contact a {
+            color: #f04d22;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact a:hover {
+            color: #ff6a3c; 
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #1f1f1f;
+            color: #d3d3d3;
+        }
+    </style>
+</head>
+<body>
+    <!--Nav bar-->
+    <div class="nav-bar">
+        <ul>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+        </ul>
+    </div>
+    <!--Main container-->
+    <div class="container">
+        <!-- About Me Section -->
+        <div class="about-section">
+            <img class="my-pic" src="Arts/IMG_20250106_182906.jpg" alt="My Photo">
+            <div class="text">
+                <h1>About Me</h1>
+                <p>
+                    Hi! I’m a self-taught artist passionate about expressing emotions and capturing what I love most through my drawings. My journey began in school, where winning two first prizes and a second prize in drawing competitions ignited my love for art. Over time, I practiced tirelessly, turning art into my passion and a core part of who I am.
+                </p>
+                <p>
+                    Though I had to pause my artistic journey during higher studies, I’m now back, sharpening my skills and exploring new mediums like ink, charcoal, and painting, alongside my proficiency in pencil sketching.
+                </p>
+                <p>
+                    Art, for me, is more than a skill—it’s a way to connect with myself and others. To share my journey and grow my network, I post my work on platforms like Instagram, Threads, and YouTube, aiming to reach a broader audience and inspire others.
+                </p>
+            </div>
+        </div>
+
+        <!--Contact details-->
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>If you’d like to connect or have any inquiries, feel free to reach out:</p>
+            <ul>
+                <li>Email: <a href="mailto:sumith.p2004@gmail.com"> artistsumith2004@gmail.com</a></li>
+                <li>Instagram: <a href="https://instagram.com/artistsumith" target="_blank">@artistsumith</a></li>
+                <li>Threads: <a href="https://threads.net/artistsumith" target="_blank">@artistsumith</a></li>
+                <li>Youtube: <a href="https://www.youtube.com/@artistsumith" target="_blank">@artistsumith</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Footer section-->
+    <footer>
+        <p>&copy; 2025 Sumith. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

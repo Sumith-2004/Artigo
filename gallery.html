@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Navigation Bar */
+        .nav-bar {
+            background-color: #1f1f1f; /* Darker gray for the nav bar */
+            padding: 10px 20px;
+        }
+
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-bar a:hover {
+            background-color: #f04d22; /* Highlight color */
+            color: #ffffff;
+            border-radius: 5px;
+        }
+        body {
+            background-color: #2c2c2c; 
+            color: #ffffff;
+            font-family: Arial, sans-serif; 
+        }
+        .container {
+            max-width: 1224px;
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        .art-gallery {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex: 1; 
+        }
+        .photo {
+            background-color: #1f1f1f; 
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); 
+        }
+        .img {
+            width: 100%;
+            height: 600px;
+            border-radius: 5px;
+            object-fit: cover;
+            display: block; 
+        }
+        a {
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <ul>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2 class="title">Art Gallery</h2><!--Art Gallery heading-->
+        <div class="art-gallery"><!--Art gallery coantainer-->
+
+            <div class="column"><!--Column1-->
+                <div class="photo">
+                    <a href="Arts/IMG_20240309_231424.JPG" target="_blank">
+                        <img class="img" src="Arts/IMG_20240706_090643_587.jpg" alt="A Girl with a hat">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/IMG_20240706_090643_587.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20240309_231424.JPG" alt="Actress Nayanthara">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/IMG_20240711_002726_150.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20240711_002726_150.jpg" alt="A Man">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/women.jpg" target="_blank">
+                        <img class="img" src="Arts/women.jpg" alt="A Lady">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/Shisui.jpg" target="_blank">
+                        <img class="img" src="Arts/Shisui.jpg" alt="Shisui">
+                    </a>
+                </div>
+            </div>
+
+            <div class="column"><!--Column2-->
+                <div class="photo">
+                    <a href="Arts/IMG_20240820_080011_042.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20240820_080011_042.jpg" alt="A women with closed eyes">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/IMG_20241119_230223.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20241119_230223.jpg" alt="A dancing lady">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/IMG_20250106_124913.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20250106_130603.jpg" alt="A women">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/Loki.jpg" target="_blank">
+                        <img class="img" src="Arts/Loki.jpg" alt="Loki">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/Michey.jpg" target="_blank">
+                        <img class="img" src="Arts/Michey.jpg" alt="Michey">
+                    </a>
+                </div>
+            </div>
+            <!---Column3-->
+            <div class="column"><!---Column3-->
+                <div class="photo">
+                    <a href="Arts/IMG_20250106_130603.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20250106_124913.jpg" alt="Horse">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/IMG_20250106_131122.jpg" target="_blank">
+                        <img class="img" src="Arts/IMG_20250106_131122.jpg" alt="Art of an eye">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/OPtrio.jpg" target="_blank">
+                        <img class="img" src="Arts/OPtrio.jpg" alt="OP trio">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/Rohit.jpg" target="_blank">
+                        <img class="img" src="Arts/Rohit.jpg" alt="Rohit">
+                    </a>
+                </div>
+                <div class="photo">
+                    <a href="Arts/Shinobu.jpg" target="_blank">
+                        <img class="img" src="Arts/Shinobu.jpg" alt="Shinobu">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
